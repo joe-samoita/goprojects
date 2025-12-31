@@ -6,12 +6,14 @@ import (
 	"strings"
 )
 
-func main(){
+func main() {
 
-	if len(os.Args) != 2 (
+	if len(os.Args) != 2 {
+
 		fmt.Println()
 		return
-	)
+
+	}
 
 	words := strings.Fields(os.Args[1])
 
