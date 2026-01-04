@@ -13,7 +13,7 @@ func main() {
 		return
 	}
 
-	words := strings.Fields(os.Args)
+	words := strings.Fields(os.Args[1])
 
 	if len(words) == 0 {
 		fmt.Println()
